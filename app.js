@@ -39,7 +39,7 @@ yargs.command({
 })
 yargs.command({
     command: 'delete',
-    describe: 'addNotes',
+    describe: 'deleteNotes',
     builder: {
         id: {
             describe: 'gjhjhg',
@@ -48,7 +48,7 @@ yargs.command({
         },
         name: {
             describe: 'gjhjhg',
-            // demandOption:true,
+            
             type: 'string',
         },
         deg: {
@@ -72,7 +72,7 @@ yargs.command({
 })
 yargs.command({
     command: 'read',
-    describe: 'addNotes',
+    describe: 'readNotes',
     builder: {
         id: {
             describe: 'gjhjhg',
@@ -81,7 +81,7 @@ yargs.command({
         },
         name: {
             describe: 'gjhjhg',
-            // demandOption:true,
+          
             type: 'string',
         },
         deg: {
@@ -103,16 +103,16 @@ yargs.command({
 })
 yargs.command({
     command: 'list',
-    describe: 'addNotes',
+    describe: 'listNotes',
     builder: {
         id: {
             describe: 'gjhjhg',
-            // demandOption:true,
+         
             type: number,
         },
         name: {
             describe: 'gjhjhg',
-            // demandOption:true,
+         
             type: 'string',
         },
         deg: {
